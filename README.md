@@ -46,7 +46,7 @@ As the effects of policies (except housing policies) on rental prices were uncer
 The link below contained the data acquiring, integration and cleaning process.
 https://github.com/totoroxin/rent_prediction_sandbox/blob/master/AARP_renthop_data_integration.ipynb
 
-### Data Analyses and Visualization
+### Data analyses and visualizations
 ![alt text](rents_barplot.png "Title")
 
 ![alt text](livabilities_six_cities.png "Title")
