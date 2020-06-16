@@ -55,7 +55,7 @@ The link below contained data analyses and modeling process.
 https://github.com/totoroxin/rent_prediction_sandbox/blob/master/rent_neigh_analysis.ipynb
 
 
-## Model selections and results
+## Model Selections and Results
 #### 1. Using overall livability ratings to predict neighborhood average rents
 - The results from linear model showed the seven categories containing policy scores explained 47% variance of neighborhood average rents. Such broad categories would be not accurate predictors.
 
