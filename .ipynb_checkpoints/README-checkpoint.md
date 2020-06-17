@@ -13,7 +13,7 @@ Because of the lack of environmental data relating to rental market data, howeve
 
 Therefore, the project has tested the importance of using the outside socio-spatial features under seven major categories (demographics, social engagement, natural environment, health service, neighborhood environments, living opportunities, and transportation conditions) to predict average rental prices for neighborhoods in six US metropolitan areas.
 
-## Objective
+## Objectives
 
 **1. Predict average neighborhood rental prices based on the neighborhood soico-spatial features**
 
