@@ -71,7 +71,7 @@ An example of the top part of a single decision tree from the random forest:
 ![alt text](small_tree.png "Title")
 
 - Model improving to reduce the number of features
-I used a feature selection method for random forest model to find out the key features that could explain most of the variance. It turned out that the number of features was reduced to seven out of 43, and the prediction accuracy had improved to 83.2%. Although it was not a dramatic improvement, it might reduce the workload for neighborhood feature data collection in future.
+I used a feature selection method for random forest model to find out the key features that could explain most of the variance. It turned out that the number of features was reduced to nine out of 43, and the prediction accuracy had improved to 83.2%. Although it was not a dramatic improvement, it might reduce the workload for neighborhood feature data collection in future.
 
 
 ## Conclusion
