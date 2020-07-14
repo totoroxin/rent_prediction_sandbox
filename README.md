@@ -7,9 +7,9 @@
 
 ## Background
 
-In general, people tend to adopt dwelling features (for example, interior features like number of bedrooms and bathrooms, furnishing conditions, views, and exterior features like building/community amenities and HOA services, and etc.) to predict rental prices. However, **socio-spatial features, including locations, demographics, social environments, transportation, and characteristics of neighborhood-built environments, could be determinant factors of rental prices besides rental properties themselves.** These factors may also associate with the values of developed or under-development lands. Particularly in dense areas/cities like Manhattan, commute and city life heavily affect people’s housing choices with low car mobilities compared to suburban areas.
+In general, people tend to adopt dwelling features (for example, interior features like the numbers of bedrooms and bathrooms, furnishing conditions, views, and exterior features like building/community amenities and HOA services) to predict rental prices. However, **socio-spatial features, including location, demographics, social environments, local transportation, and characteristics of neighborhood-built environments, could be determinant factors of rental prices besides rental properties themselves.** These factors may also associate with the values of developed or under-development lands. Particularly in dense areas/cities like Manhattan, commute services and city life features affect people’s housing choices with a low car use compared to suburban areas.
 
-Because of the lack of environmental data relating to rental market data, however, **most projects of rental price prediction have overlooked the environmental factors** that only tested the housing interior features and adding few of neighborhood features.
+Because of the lack of environmental data relating to rental market data, **most projects of rental price prediction had overlooked the environmental factors** that only tested the housing interior features and using few of neighborhood features.
 
 Therefore, the project has tested the importance of using the outside socio-spatial features under seven major categories (demographics, social engagement, natural environment, health service, neighborhood environments, living opportunities, and transportation conditions) to predict average rental prices for neighborhoods in six US metropolitan areas.
 
@@ -21,7 +21,7 @@ For the average neighborhood housing price, the individual apartment features wo
 
 **2. Identify the key environmental features for increase the neighborhood market values**
 
-The project has examined over 40 types of socio-spatial features. It would help us to idenfity which of them affect the average neighborhood rents most and in which directions. The results also provided the insights for local government and committees for neighborhood improvement.
+The project has examined over 40 types of socio-spatial features. It would help us to idenfity which of them affect the average neighborhood rents most (with the greatest preditive power) and in which directions. The results also provided the insights for local government and communities for neighborhood improvements.
 
 ## Datasets
 
@@ -57,12 +57,12 @@ https://github.com/totoroxin/rent_prediction_sandbox/blob/master/rent_neigh_anal
 
 ## Model Selections and Results
 #### 1. Using overall livability ratings to predict neighborhood average rents
-- The results from linear model showed the seven categories containing policy scores explained 47% variance of neighborhood average rents. Such broad categories would be not accurate predictors.
+- The results from linear model showed the seven categories containing policy scores explained 47% variance of neighborhood average rents. Such general categories would be not accurate predictors, and linear model was not an ideal choice.
 
-- The results from random forest model showed the prediction accuracy was 79.33% with seven predictors.
+- The results from random forest model showed the prediction accuracy was 79.33% with seven predictors. It was much better than the linear solution.
 
 #### 2. Using detailed feature index to predict neighborhood average rents
-As I consider the policy might not directly have effects on rents, and the existing physical conditions effected more on it, I extracted 43 detailed features from six categories (excluded housing cost itself) indcluding demographics to explore the individual effects.
+As I considered the policy might not directly have effects on rents, and the existing physical conditions effected more on it, I extracted 43 detailed features from six categories (excluded housing cost itself) indcluding demographics to explore the individual effects.
 - The results from three methods (random forest, Ada boosting, and gradient boosting) showed the 43 features provided 82%-84% accuracies to predict neighborhood average rents.
 
 - The most important feature we observed was **neighborhood transit accessibility**.
@@ -71,13 +71,15 @@ An example of the top part of a single decision tree from the random forest:
 ![alt text](small_tree.png "Title")
 
 - Model improving to reduce the number of features
-I used a feature selection method for random forest model to find out the key features that could explain most of the variance. It turned out the number of features reduced to seven out of 43, and the prediction accuracy had improved to 83.2%. Although it was not a dramatic improvement, it effectively reduced the workload for neighborhood feature data collection in future.
+I used a feature selection method for random forest model to find out the key features that could explain most of the variance. It turned out that the number of features was reduced to nine out of 43, and the prediction accuracy had improved to 83.2%. Although it was not a dramatic improvement, it might reduce the workload for neighborhood feature data collection in future.
 
 
 ## Conclusion
 This project has demonstrated the way of **using socio-spatial characteristics to predict average neighborhood housing rental prices**. The results had documented over 80% accuracy that the outside environmental characteristics could predict the average neighborhood rents without using the apartment interior features. It indicated the location, social and neighborhood environments are the most important factors that affect the rental market among different areas, for example, transit accessibility. It would help investors, developers and residents to evaluate the rents associating with neighborhood values. 
 
-The projected successfully **integrated different types of data, such as spatial and housing data, from three resources**. It also has compared several machine learning methods. Some of the distributions of socio-spatial features were skewed with high bias and low variance, but some of the distributions showed low bias and high variance. Therefore, the bagging methods and the boosting methods shared similar performance for this dataset.
+The projected successfully **integrated different types of data, such as spatial and housing data, from three resources**. It also has compared several machine learning methods. Some of the distributions of socio-spatial features were skewed with high bias and low variance, but some of the distributions showed low bias and high variance. Therefore, it might explain that the bagging methods and the boosting methods had the similar performances for this dataset.
+
+The project remains future works such as adding interior features to predict the price of individual rental property instead of the average in neighborhood and adding more locations/samples to accurate the preditive power of each feature as we only have less two hundreds cases in this preliminary research.
 
 
 
