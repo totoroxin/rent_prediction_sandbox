@@ -15,7 +15,7 @@ Therefore, the project has tested the importance of using the outside socio-spat
 
 ## Objectives
 
-**1. Predict average neighborhood rental prices based on the neighborhood soico-spatial features**
+**1. Predict average neighborhood rental prices based on the neighborhood socio-spatial features**
 
 For the average neighborhood housing price, the individual apartment features would be less important compared with its location and outside environments. The prediction results could provide an insight to estimate the general rental market value through socio-spatial data without local investigations. Landlords and investors can use such information for decision making on investing or renovating rental properties in a certain neighborhood. Meanwhile, the prediction models can assist residents in housing choices. Moreover, as the project has tested neighborhoods in six cities, we may apply the method to other areas/cities based on different business demands.
 
