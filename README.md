@@ -21,7 +21,7 @@ For the average neighborhood housing price, the individual apartment features wo
 
 **2. Identify the key environmental features for increase the neighborhood market values**
 
-The project has examined over 40 types of socio-spatial features. It would help us to idenfity which of them affect the average neighborhood rents most and in which directions. The results also provided the insights for local government and communities for neighborhood improvements.
+The project has examined over 40 types of socio-spatial features. It would help us to idenfity which of them affect the average neighborhood rents most (with the greatest preditive power) and in which directions. The results also provided the insights for local government and communities for neighborhood improvements.
 
 ## Datasets
 
@@ -78,6 +78,8 @@ I used a feature selection method for random forest model to find out the key fe
 This project has demonstrated the way of **using socio-spatial characteristics to predict average neighborhood housing rental prices**. The results had documented over 80% accuracy that the outside environmental characteristics could predict the average neighborhood rents without using the apartment interior features. It indicated the location, social and neighborhood environments are the most important factors that affect the rental market among different areas, for example, transit accessibility. It would help investors, developers and residents to evaluate the rents associating with neighborhood values. 
 
 The projected successfully **integrated different types of data, such as spatial and housing data, from three resources**. It also has compared several machine learning methods. Some of the distributions of socio-spatial features were skewed with high bias and low variance, but some of the distributions showed low bias and high variance. Therefore, it might explain that the bagging methods and the boosting methods had the similar performances for this dataset.
+
+The project remains future works such as adding interior features to predict the price of individual rental property instead of the average in neighborhood and adding more locations/samples to accurate the preditive power of each feature as we only have less two hundreds cases in this preliminary research.
 
 
 
