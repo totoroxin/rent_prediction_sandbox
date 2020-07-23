@@ -63,7 +63,7 @@ https://github.com/totoroxin/rent_prediction_sandbox/blob/master/rent_neigh_anal
 
 #### 2. Using detailed feature index to predict neighborhood average rents
 As I considered the policy might not directly have effects on rents, and the existing physical conditions effected more on it, I extracted 43 detailed features from six categories (excluded housing cost itself) indcluding demographics to explore the individual effects.
-- The results from three methods (random forest, Ada boosting, and gradient boosting) showed the 43 features provided 82%-84% accuracies to predict neighborhood average rents.
+- The results from three methods (random forest, Ada boosting, and gradient boosting) showed the 43 features provided 82%-84% accuracies (1-MAE) to predict neighborhood average rents.
 
 - The most important feature we observed was **neighborhood transit accessibility**.
 
