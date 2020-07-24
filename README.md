@@ -59,7 +59,7 @@ https://github.com/totoroxin/rent_prediction_sandbox/blob/master/rent_neigh_anal
 #### 1. Using overall livability ratings to predict neighborhood average rents
 - The results from linear model showed the seven categories containing policy scores explained 47% variance of neighborhood average rents. Such general categories would be not accurate predictors, and linear model was not an ideal choice.
 
-- The results from random forest model showed the prediction accuracy was 79.33% with seven predictors. It was much better than the linear solution.
+- The results from random forest model showed the prediction accuracy was 79.33% (1-MAE) with seven predictors. It was much better than the linear solution.
 
 #### 2. Using detailed feature index to predict neighborhood average rents
 As I considered the policy might not directly have effects on rents, and the existing physical conditions effected more on it, I extracted 43 detailed features from six categories (excluded housing cost itself) indcluding demographics to explore the individual effects.
