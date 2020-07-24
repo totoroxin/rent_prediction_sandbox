@@ -19,7 +19,7 @@ Therefore, the project has tested the importance of using the outside socio-spat
 
 For the average neighborhood housing price, the individual apartment features would be less important compared with its location and outside environments. The prediction results could provide an insight to estimate the general rental market value through socio-spatial data without local investigations. Landlords and investors can use such information for decision making on investing or renovating rental properties in a certain neighborhood. Meanwhile, the prediction models can assist residents in housing choices. Moreover, as the project has tested neighborhoods in six cities, we may apply the method to other areas/cities based on different business demands.
 
-**2. Identify the key environmental features for increase the neighborhood market values**
+**2. Identify the key environmental features for increasing the neighborhood market values**
 
 The project has examined over 40 types of socio-spatial features. It would help us to idenfity which of them affect the average neighborhood rents most (with the greatest preditive power) and in which directions. The results also provided the insights for local government and communities for neighborhood improvements.
 
@@ -75,11 +75,11 @@ I used a feature selection method for random forest model to find out the key fe
 
 
 ## Conclusion
-This project has demonstrated the way of **using socio-spatial characteristics to predict average neighborhood housing rental prices**. The results had documented over 80% accuracy that the outside environmental characteristics could predict the average neighborhood rents without using the apartment interior features. It indicated the location, social and neighborhood environments are the most important factors that affect the rental market among different areas, for example, transit accessibility. It would help investors, developers and residents to evaluate the rents associating with neighborhood values. 
+This project has demonstrated the way of **using socio-spatial characteristics to predict average neighborhood housing rental prices**. The results had documented over 80% accuracy that the outside environmental characteristics could predict the average neighborhood rents without using the apartment interior features. It indicated the location, social and neighborhood environments are the most important factors that affect the rental market among different areas, for example, transit accessibility. It would help investors, developers and residents to evaluate the rents associating with the neighborhood values, and to optimize the schema of improving environmental features with low costs.
 
 The projected successfully **integrated different types of data, such as spatial and housing data, from three resources**. It also has compared several machine learning methods. Some of the distributions of socio-spatial features were skewed with high bias and low variance, but some of the distributions showed low bias and high variance. Therefore, it might explain that the bagging methods and the boosting methods had the similar performances for this dataset.
 
-The project remains future works such as adding interior features to predict the price of individual rental property instead of the average in neighborhood and adding more locations/samples to accurate the preditive power of each feature as we only have less two hundreds cases in this preliminary research.
+The project remains future works such as adding interior features to predict the price of individual rental property instead of the average in neighborhood and adding more locations/samples to accurate the preditive power of each feature as we only have less two hundreds cases in this preliminary research. In adddtion, considering housing sale market, the preditive power of each feature may differ from the neighborhood rental market. However, we could adopt the similar methods to explore the sale values. It would provide the investors with multiple dimensions to make business decisions.
 
 
 
